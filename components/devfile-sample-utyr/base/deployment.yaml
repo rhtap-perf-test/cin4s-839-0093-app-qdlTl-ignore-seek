@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-utyr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0093-tenant/cin4s-839-0093-app/devfile-sample-utyr@sha256:a49b15e9af5fcbfc05337a7bcad21b627fc59a5f051ffd817a57c4a3f7492748
         name: my-nodejs
         ports:
         - containerPort: 3001
